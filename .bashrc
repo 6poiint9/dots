@@ -19,6 +19,8 @@ fi
 
 #export XDG_RUNTIME_DIR=/run/user/$(id -u) 
 
+# Set prompt color to white
+PS1='\[\033[0;37m\]\u@\h\[\033[0m\] \[\033[0;35m\]\w \[\033[0;35m\]$ \[\033[0m\]'
 
 
 PATH=$PATH:$HOME/.scripts 

@@ -1,4 +1,4 @@
-# 🍧 *Setup
+# 🍚 Setup
 
 - **Window manager** => Hyprland - hyprland.org 
 - **Terminal emulator** => Alacritty - https://github.com/alacritty/alacritty
