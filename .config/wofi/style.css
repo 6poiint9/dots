@@ -1,0 +1,55 @@
+* {
+ border-radius: 3px;
+ border: none;
+}
+
+
+
+window {
+ font-size: 20px;
+ #font-family: "";
+ background-color: rgba(128, 128, 128, 0.9); 
+ #font_color
+ color: rgb(242, 242, 242);
+}
+
+#entry{
+ padding: 0.2em;
+}
+
+#entry:selected {
+ background-color: #dbd4d3;
+} 
+
+#text:selected {
+ #color: #273746;
+ }
+
+#input{
+ background-color: rgba(128, 128, 128, 0.8); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
