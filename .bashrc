@@ -25,7 +25,6 @@ PATH=$PATH:$HOME/.scripts
 
 
 
-
-
+# Bash completion from https://github.com/akinomyoga/ble.sh
 source ~/.local/share/blesh/ble.sh
-#alias config='/usr/bin/git --git-dir=/home/gen69/.dotfiles/ --work-tree=/home/gen69'
+
