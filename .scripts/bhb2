@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+
+#until [ -f "caca" ]; do 
+# echo "no caca"
+# sleep 3 
+#done 
+
+#echo "smells like sh*t" 
+
+#for file in $(ls .); do
+# echo "File: ${file}" 
+#done 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

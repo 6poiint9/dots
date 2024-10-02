@@ -1,0 +1,51 @@
+#!/usr/bin/env bash 
+
+# ask for a name and domain name 
+echo "please type in the name of the site"
+read -r name
+
+echo "please type in the target domain"
+read -r domain
+
+# throw error and exit if no input + ping domain if input valid 
+if [ -n "${name}" ] && [ -n "$domain" ]; then 
+ ping -c3 ${domain}
+else 
+ echo "Error no input code: 127"
+fi
+
+# checks if ping was successfull based on status code 
+if [ $? -eq 0 ]; then
+ echo "the ping was successfull" && pingres="success"
+elif [ $? -ne 0 ]; then
+ echo "ping not successfull -> host either down or hostname typed incorrecty" &&
+ pingres="Failed"	 
+fi
+
+
+# Save the results to a csv file 
+File="$(date +%m-%d-%y)_${RANDOM}.csv"
+
+echo "$name, $domain, $(date), ${pingres} " >> ${File}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

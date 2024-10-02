@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+
+#fn="cacau" 
+
+#if [ -f ${fn} ]  && [ -s ${fn}]; then
+ #  echo "it exists"
+#else 
+#   touch ${fn} 	
+#fi 
+
+#V1="sus"
+#V2="sus"
+
+#if [ ${V1} == ${V2} ]; then
+ #  echo "the same!"
+#else
+ #  echo "it is different"
+#fi    
+
+
+echo "type in the first number"
+read -r num1
+echo "type in the second number"
+read -r num2
+
+if [ ${num1} -gt ${num2} ]; then
+   echo " ${num1} is the bigger number"
+elif [ ${num1} -lt ${num2} ]; then
+   echo " ${num2} is the bigger number "
+else 
+   echo " the numbers are equal "
+fi    
+
+
+
+
+
+
+
+
+
+
+
+
+

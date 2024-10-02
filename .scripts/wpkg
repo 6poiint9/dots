@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+#get a look at installed programs in world file 
+cat /var/lib/portage/world | less
+
+
+
+
+

@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+name="${0}"
+
+Target="${1}"
+
+echo "script name: ${name}"
+
+echo "specify the target IP"
+read -r IP 
+
+echo "Target is: ${IP}"
+
+ping -c3 "${IP}" 
+
+
+
+
+
+
+
+
+
+
+
+

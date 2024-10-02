@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+
+let_me() {
+  echo "The following adds 2 numbers that equal 100"
+  sleep 1
+  echo "..."
+  sleep 1
+  echo "Input first number:"
+  read -r num1
+  sleep 1
+  echo "..."
+  sleep 1
+  echo "Input second number:"
+  read -r num2
+  sleep 1
+  echo "...!"
+  sleep 1
+  declare -g sum=$((num1 + num2))
+  echo "salazar!!!"
+  echo "$sum"
+}
+
+let_me
+
+# Run the loop until the sum is 100
+while true; do
+  if [ $sum -eq 100 ]; then
+    echo "100... one century one..."
+    break
+  else
+    echo "That is NOT 100 bruh "
+    sleep 1
+    let_me 
+  fi
+done
+
+
+<: << 'END'
+until [ "$sum" -eq 100]; do 
+  sleep 1
+done 
+
+echo "thats = 100!!!"
+END
+
+
+

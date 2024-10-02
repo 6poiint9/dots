@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Define output file name
+OUTPUT_FILE="screenshot-$(date +%Y%m%d%H%M%S).png"
+
+# Take screenshot of selected area and save to file
+gim -g "$(slurp)" ~/Screenshots/"$OUTPUT_FILE" 

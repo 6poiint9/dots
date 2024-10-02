@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+
+#wp="$(ls -l /home/gen69/Wallpapers)"
+
+#echo "your wallpapers are: ${wp}" 
+
+echo "enter your first name"
+read -r fname
+
+echo "enter your last name"
+read -r lname
+
+echo " ${fname} ${lname}" >> output.txt && date +"%d %m %Y" >> output.txt 
+
+cp -T output.txt backup.txt 
+
+cat output.txt 
+
+
+
+#FUNCION
+
+#genesis () {
+#  local pea
+#  pea="$(ls -la /home/gen69)"
+#  pea=(Neuer Kimmich Min_jae upamecano guirrero)
+ # echo "${pea} is part of your home-dir"
+#  echo "${pea[1]}"
+ #unset pea[0] 
+#} 
+
+#genesis
+
+#echo "hi ${pea}"
+
+
+
+
+
+
+
+
+
+
+
+
+

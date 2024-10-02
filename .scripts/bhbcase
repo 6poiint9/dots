@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+echo "what is your favourite fruit ?"
+read -r moin   
+
+case ${moin} in 
+  apple)
+   echo "basic"
+  ;;
+  banana)
+  echo "interesting..." 
+  ;;
+  cherry)
+  echo "yum!"
+  ;;
+  pear)
+  echo "nice!"
+  ;;
+  *)
+  echo "I do NOT know that fruit!"
+  ;;
+esac
+
+
+
+
