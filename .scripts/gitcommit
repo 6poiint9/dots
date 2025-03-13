@@ -1,0 +1,4 @@
+!# /usr/bin/env basha
+
+git add . && git commit -m "new push"
+

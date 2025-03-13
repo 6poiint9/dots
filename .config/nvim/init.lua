@@ -35,3 +35,6 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+vim.g.python3_host_prog = "/home/gen69/.nvim-venv/bin/python"
+
