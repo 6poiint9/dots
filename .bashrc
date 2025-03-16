@@ -32,3 +32,6 @@ PATH=$PATH:$HOME/.scripts
 # Bash completion from https://github.com/akinomyoga/ble.sh
 source ~/.local/share/blesh/ble.sh
 
+# For npm
+export NPM_CONFIG_PREFIX=$HOME/.local/
+export PATH="/home/$USER/go/bin:/home/$USER/.local/bin:$NPM_CONFIG_PREFIX/bin:$PATH"

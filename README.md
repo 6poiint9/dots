@@ -8,5 +8,6 @@
 - **Text editor** => [Vim](https://github.com/vim/vim)
 - **IDE** => [Neovim](https://neovim.io/) with [Nvchad](https://nvchad.com/)  
 
+![My Image](.dotfiles/.config/screenshots/rice.png)
 
 
