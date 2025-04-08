@@ -4,7 +4,7 @@
 --@type ChadrcConfig
 local M = {}
 M.base46 = {
-	theme = "pastelbeans",
+	theme = "decay",
 }
 M.plugins = "custom.plugins" 
 return M
