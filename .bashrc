@@ -27,6 +27,7 @@ PS1='\[\033[0;94m\]\u@\h\[\033[0m\] \[\033[0;35m\]\w \[\033[0;35m\]$ \[\033[0m\]
 
 PATH=$PATH:$HOME/.scripts 
 
+export PATH=$PATH:/home/gen69/Downloads/freetube
 
 
 # Bash completion from https://github.com/akinomyoga/ble.sh
