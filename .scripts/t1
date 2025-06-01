@@ -1,0 +1,22 @@
+#!/usr/bin/env bash 
+
+#cd ~
+#touch testi && echo "Getting back in" > testi  
+#cat testi && rm testi 
+#echo "we're back! :)"
+
+var1="loooool"
+
+echo ${var1} 
+
+
+
+
+
+
+
+
+
+
+
+
