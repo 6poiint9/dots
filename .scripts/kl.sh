@@ -21,9 +21,10 @@ else
 name=$1
 
 # 1. Spalte output 
-ps -u $name | cut -d ' ' -f 1 
+ps -u $name > ok.txt | awk '{print $0}' ok.txt 
 
-ps -u $name | cut -d ' ' -f 4
+# 2. Spalte otput 
+#ps -u $name > ok2.txt| awk '{print $4}' ok.txt
 
 fi
 

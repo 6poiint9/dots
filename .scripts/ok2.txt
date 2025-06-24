@@ -1,0 +1,90 @@
+  PID TTY          TIME CMD
+ 1417 tty6     00:00:41 Isolated Web Co
+ 3066 tty6     00:00:00 bash
+ 3109 tty6     01:10:02 Hyprland
+ 3132 tty6     00:01:42 waybar
+ 3134 tty6     00:00:00 hyprpaper
+ 3136 tty6     00:00:00 hypridle
+ 3140 tty6     00:00:48 wireplumber
+ 3145 tty6     00:17:41 pipewire
+ 3147 tty6     00:01:41 pipewire
+ 3158 tty6     00:21:39 Xwayland
+ 3178 tty6     00:00:00 dbus-launch
+ 3179 tty6     00:00:00 dbus-launch
+ 3185 tty6     00:00:00 dbus-launch
+ 3186 tty6     00:00:00 dbus-launch
+ 3190 ?        00:00:00 dbus-daemon
+ 3191 ?        00:00:00 dbus-daemon
+ 3192 ?        00:00:00 dbus-daemon
+ 3193 ?        00:00:00 dbus-daemon
+ 3214 ?        00:00:00 at-spi-bus-laun
+ 3220 ?        00:00:00 dbus-daemon
+ 3222 ?        00:00:00 xdg-desktop-por
+ 3228 ?        00:00:00 xdg-document-po
+ 3233 ?        00:00:00 xdg-permission-
+ 3251 ?        00:00:01 xdg-desktop-por
+ 3257 ?        00:00:00 at-spi2-registr
+ 3282 tty6     00:00:00 alacritty
+ 3291 pts/0    00:00:00 bash
+ 3405 tty6     02:14:47 librewolf
+ 3459 tty6     00:00:00 Socket Process
+ 3505 tty6     00:00:18 Privileged Cont
+ 3571 tty6     03:11:18 WebExtensions
+ 3598 tty6     00:00:00 librewolf
+ 3629 tty6     00:04:41 Utility Process
+ 3687 tty6     00:01:31 Isolated Web Co
+ 3689 tty6     00:19:15 Isolated Web Co
+ 3801 tty6     00:01:47 Isolated Web Co
+ 3834 tty6     00:00:00 alacritty
+ 3843 pts/1    00:00:00 bash
+ 3887 tty6     00:00:00 alacritty
+ 3896 pts/2    00:00:01 bash
+ 4430 tty6     01:22:52 RDD Process
+ 4924 tty6     00:02:20 Isolated Web Co
+ 5003 tty6     00:05:07 Isolated Web Co
+ 5048 tty6     00:43:19 Isolated Web Co
+ 8429 pts/2    00:00:15 anytype
+ 8432 ?        00:00:03 anytype.AppImag
+ 8451 pts/2    00:00:00 anytype
+ 8452 pts/2    00:00:00 anytype
+ 8454 pts/2    00:00:00 anytype
+ 8490 pts/2    00:00:21 anytype
+ 8495 pts/2    00:00:02 anytype
+ 8507 pts/2    00:01:27 anytypeHelper
+ 8559 pts/2    00:02:01 anytype
+11822 tty6     00:00:00 zathura
+11849 tty6     00:00:00 zathura
+13293 tty6     00:00:02 Isolated Web Co
+13996 tty6     00:00:02 alacritty
+14005 pts/4    00:00:01 bash
+14984 tty6     00:00:03 Isolated Web Co
+15381 pts/4    00:00:00 nvim
+15382 ?        00:00:08 nvim
+16093 tty6     00:00:01 alacritty
+16102 pts/5    00:00:07 bash
+16217 tty6     00:00:23 Isolated Web Co
+16257 tty6     00:14:23 Isolated Web Co
+16334 ?        00:00:00 dconf-service
+17214 tty6     00:00:26 Isolated Web Co
+17475 tty6     00:01:38 Isolated Web Co
+17650 tty6     00:02:52 Isolated Web Co
+17696 tty6     00:02:07 Isolated Web Co
+18311 tty6     00:00:39 Isolated Web Co
+18588 tty6     00:07:49 Isolated Web Co
+18925 tty6     00:00:00 alacritty
+18934 pts/3    00:00:00 bash
+19800 tty6     00:01:15 Isolated Web Co
+20399 tty6     00:00:18 Isolated Web Co
+21839 pts/0    00:00:00 bash
+21840 pts/0    00:00:00 gammastep
+23087 tty6     00:02:00 Isolated Web Co
+24521 tty6     00:00:07 Isolated Web Co
+27526 tty6     00:00:00 Web Content
+28373 pts/6    00:00:01 bash
+28429 tty6     00:00:00 Web Content
+29119 tty6     00:00:10 Isolated Web Co
+29252 pts/5    00:00:00 vim
+29423 tty6     00:00:00 Web Content
+29763 pts/6    00:00:00 bash
+29766 pts/6    00:00:00 ps
+30682 tty6     00:00:06 Isolated Web Co
