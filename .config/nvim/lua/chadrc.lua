@@ -4,7 +4,7 @@
 --@type ChadrcConfig
 local M = {}
 M.base46 = {
-	theme = "everforest_light",
+	theme = "gatekeeper",
 }
 M.plugins = "custom.plugins" 
 return M
